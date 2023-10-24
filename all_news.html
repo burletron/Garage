@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мой гараж</title>
+</head>
+<body>
+<header>
+<div class="centered-content">
+    <h1>Добро пожаловать в мой гараж</h1>
+    </div>
+  <title>Актуальные новости</title>
+  <link rel="stylesheet" type="text/css" href="D:\IT\WEB\Garazh\css\styles.css">
+
+<p>Публичная ссылка на файл: <a href="{{ public_url }}" target="_blank"></a></p>
+
+  <div class="news-item">
+    <h2>Новость 2</h2>
+	
+	<a href="#" onclick="loadFileFromDropbox()">Загрузить текстовый файл</a>
+
+<div id="fileContent"></div>
+
+<script src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="2h1x2uqnqf9zzb9"></script>
+<script src="script1.js"></script>
+
+
+  <h1>Запишите текст:</h1>
+
+<textarea id="userInput" placeholder="Введите текст"></textarea>
+<button onclick="saveText()">Сохранить</button>
+
+<div id="displayText">
+  <h2>Сохраненный текст:</h2>
+  <div id="savedText"></div>
+</div>
+
+<script src="script.js"></script>
+<script src="garazh.py"></script>
+  
+  <div class="news-item">
+    <h2>Новость 4</h2>
+    <iframe src="4ipa.txt" width="100%" height="100"></iframe>
+  </div>
+</div>
+
+<div>
+<h2>Новость 5</h2>
+ <iframe src ="https://docs.google.com/document/d/e/2PACX-1vS_w9-xjomf04U0XqYGV884uzU5DCnO3km9rBlCmvl4fY9YiMIjzSAF1GFAkvmS6THHgBwZITqSvNw4/pub" width="100%" height="300">Просмотреть документ></iframe>
+</div>
+
+
+<a href="index.html">Главная</a>
+
+<footer>
+    <p>&copy; 2023 Мой гараж. Все права защищены.</p>
+</footer>
+</body>
+</html>
