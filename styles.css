@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #D2B48C; /* Замените на нужный вам цвет, например, #f0f0f0 представляет серый цвет */
+}
+
+h1, h2 {
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+
+#body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.centered-content {
+  text-align: center;
+}
+
+.forum-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.thread {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.thread h2 {
+  color: #0066cc;
+}
